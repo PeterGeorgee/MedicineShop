@@ -9,6 +9,7 @@ import { CovidComponent } from './covid/covid.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     OurPageComponent,
     NavbarComponent,
     CovidComponent,
-    HeaderComponent
+    HeaderComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
