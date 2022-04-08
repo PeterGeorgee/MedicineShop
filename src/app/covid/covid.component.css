@@ -17,17 +17,17 @@ div {
 ul {
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-a {
-    text-decoration: underline;
+#covidBtn {
     cursor: pointer;
+    text-decoration: underline;
 }
 
-a:hover{
+#covidBtn:hover{
     color: lightgrey;
 }
