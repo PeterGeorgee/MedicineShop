@@ -1,3 +1,7 @@
+.carousel {
+    border-radius: 25px;
+    overflow: hidden;
+}
 ngb-carousel .wrapper {
     position: relative;
     height: 0;
