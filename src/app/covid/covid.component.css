@@ -1,0 +1,33 @@
+div {
+    background-color: red;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover{
+    color: lightgrey;
+}
