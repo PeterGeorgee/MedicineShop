@@ -1,9 +1,22 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
 .centered {
     display: flex;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
+    margin-top: 30PX;
+    margin-bottom: 30px;
 }
 
 .customCarousel {
     width: 60%;
+}
+
+.customCards {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
