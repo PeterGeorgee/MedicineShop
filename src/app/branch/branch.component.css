@@ -16,6 +16,11 @@
     background-color: #F0F3F6;
 }
 
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px #003E7E;
+}
+
 .customSmallCard {
     border-color: black;
     border-radius: 25px;

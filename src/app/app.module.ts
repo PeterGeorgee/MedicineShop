@@ -11,6 +11,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BranchComponent } from './branch/branch.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { BranchComponent } from './branch/branch.component';
     CovidComponent,
     HeaderComponent,
     CarouselComponent,
-    BranchComponent
+    BranchComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

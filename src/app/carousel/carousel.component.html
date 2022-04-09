@@ -1,6 +1,11 @@
-<div class="container-fluid">
+<!-- <div class="container-fluid">
   
     <h1>Angular Bootstrap Carousel Example - ItSolutionStuff.com</h1>
+    <div class="centered">
+      <div class="card">
+
+      </div>
+    </div>
       
     <ngb-carousel>
       <ng-template ngbSlide *ngFor="let image of images">
@@ -14,4 +19,16 @@
       </ng-template>
     </ngb-carousel>
             
-</div>
+</div> -->
+<ngb-carousel>
+  <ng-template ngbSlide *ngFor="let image of images">
+    <div class="wrapper">
+      <img [src]="image.src" alt="Random first slide">
+      <h1>MEDICINE SHOPPE</h1>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{ image.title }}</h3>
+      <p>{{ image.short }}</p>
+    </div>
+  </ng-template>
+</ngb-carousel>

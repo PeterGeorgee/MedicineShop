@@ -1,0 +1,14 @@
+.centered {
+    background-color: #F0F3F6;
+    padding: 30px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}

@@ -10,15 +10,15 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class CarouselComponent implements OnInit {
 
   constructor(config: NgbCarouselConfig) { 
-      config.interval = 2000;
+      config.interval = 7000;
       config.keyboard = true;
-      config.pauseOnHover = true;
+      config.pauseOnHover = false;
   }
 
   images = [
-    {title: 'First Slide', short: 'First Slide Short', src: "https://picsum.photos/id/700/900/500"},
-    {title: 'Second Slide', short: 'Second Slide Short', src: "https://picsum.photos/id/1011/900/500"},
-    {title: 'Third Slide', short: 'Third Slide Short', src: "https://picsum.photos/id/984/900/500"}
+    {title: '', short: '', src: "./assets/MSImage1.jpg"},
+    {title: '', short: '', src: "./assets/MSImage2.jpg"},
+    // {title: 'Third Slide', short: 'Third Slide Short', src: "https://picsum.photos/id/984/900/500"}
   ];
 
   ngOnInit(): void {}
