@@ -1,9 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     background-color: #003E7E;
     width: 100%;
 }
 
+a {
+    color: white;
+    font-size: large;
+}
+
 a:hover {
+    color: grey;
     cursor: pointer;
 }
 
