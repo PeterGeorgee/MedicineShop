@@ -1,8 +1,8 @@
 <div class="parentCentered">
-    <div class="centered">
+    <div class="centered" *ngFor="let branch of branchesData">
         <img src="./assets/MSImage2.jpg">
-        <h1>Branch Name</h1>
-        <p>Location: this.isthe.url.example</p>
+        <h1>{{branch.name}}</h1>
+        <p>Address: {{branch.address}}</p>
         <button type="button" class="btn btn-primary">Go to website</button>
     </div>
 </div>
