@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.oneLineCentered{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 h1 {
     font-size: xx-large;
     font-weight: bolder;

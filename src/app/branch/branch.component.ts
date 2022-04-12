@@ -14,8 +14,12 @@ export class BranchComponent implements OnInit {
   @Input() name="";
   @Input() address="";
   @Input() website="";
+  @Input() photosource="";
 
   ngOnInit(): void {
   }
 
+  gotoLink(){
+    window.location.href=this.website;
+  }
 }

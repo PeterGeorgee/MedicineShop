@@ -1,8 +1,8 @@
 <div class="parentCentered">
     <div class="centered">
-        <img src="./assets/MSImage2.jpg">
+        <img [src]="photosource">
         <h1>{{name}}</h1>
         <p>Address: {{address}}</p>
-        <button type="button" class="btn btn-primary">Go to website</button>
+        <button type="button" class="btn btn-primary" (click)="gotoLink()">Go to website</button>
     </div>
 </div>
