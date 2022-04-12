@@ -20,6 +20,7 @@ export class BranchComponent implements OnInit {
   }
 
   gotoLink(){
-    window.location.href=this.website;
+    // window.location.href=this.website;
+    window.open(this.website);
   }
 }
