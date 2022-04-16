@@ -14,7 +14,7 @@ export class CovidComponent implements OnInit {
   }
 
   onGoCovid() {
-    window.open('https://www.who.int/health-topics/coronavirus#tab=tab_1', "_blank");
+    window.open('https://www.medicineshoppe.com/coronavirus', "_blank");
   }
 
 }
