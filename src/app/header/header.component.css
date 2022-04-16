@@ -9,13 +9,20 @@ nav {
 }
 
 a {
-    color: #003E7E;
-    font-size: large;
-    margin-top: 12px;
-    font-weight: bold;
+    margin: 0;
 }
 
-a:hover {
+.headerBtn {
+    margin: 0;
+    color: #003E7E;
+    font-size: large;
+    
+    font-weight: bold;
+    width: auto;
+    text-decoration: none;
+}
+
+.headerBtn:hover {
     color: grey;
     cursor: pointer;
 }
@@ -31,6 +38,12 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
