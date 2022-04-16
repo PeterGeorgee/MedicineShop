@@ -14,7 +14,7 @@
 <app-about></app-about>
 <div class="centered">
     <div class="container">
-        <div class="row">
+        <div class="row" id="branches">
             <div class="col-md-4" *ngFor="let branch of branchesData">
                 <app-branch [name]="branch.name" [address]="branch.address" [website]="branch.website" [photosource]="branch.photosrc"></app-branch>
             </div>
