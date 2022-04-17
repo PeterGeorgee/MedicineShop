@@ -1,16 +1,8 @@
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:100px) and (max-width:991px) {
     img{
-        margin-right: 90px;
-    }
-}
-@media (min-width:481px) and (max-width:767px) {
-    img{
-        margin-right: 217px;
-    }
-}
-@media (min-width:768px) and (max-width:1024px) {
-    img{
-        margin-right: 380px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 html {
@@ -65,6 +57,13 @@ a {
     align-items: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+@media (min-width:100px) and (max-width:991px) {
+    .col-lg-4 {
+        justify-content: left;
+        align-items: left;
+    }
 }
 
 ul {
