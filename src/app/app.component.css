@@ -24,6 +24,7 @@ h1{
     font-size: 8vw; 
     width: 100%; 
     font-weight: bold; 
+    font-family: "Cairo" , sans-serif;
     position: absolute; 
     left: 50%; 
     top: 50%; 
