@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {MatIconModule} from '@angular/material/icon';
 import { Router } from '@angular/router';
 
 @Component({
@@ -15,6 +16,7 @@ export class BranchComponent implements OnInit {
   @Input() address="";
   @Input() website="";
   @Input() photosource="";
+  @Input() disabled=true;
 
   ngOnInit(): void {
   }

@@ -10,24 +10,20 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01" [ngClass]="{ 'show': navbarOpen }">
       <div class="padded">
-        <!-- <img src="./assets/logo_transparent.png" style="color: white;">
-        <ul class="navbarButtons">
-          <li class="nav-item">
-            <a class="nav-link" (click)="navigateToSection('about')" style="font-size: 17px;">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" (click)="navigateToSection('footer')" style="font-size: 17px;">Contact us</a>
-          </li>
-        </ul> -->
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
+              <i class="fa fa-info" style="color: #003E7E; margin-right: 5px;"></i>
               <a class="headerBtn" (click)="navigateToSection('about')">About us</a>
+              <span class="divider"></span>
             </div>
             <div class="col-lg-4">
+              <i class="fa fa-map" style="color: #003E7E; margin-right: 5px;"></i>
               <a class="headerBtn" (click)="navigateToSection('branches')">Our Branches</a>
+              <span class="divider"></span>
             </div>
             <div class="col-lg-4">
+              <i class="fa fa-id-card" style="color: #003E7E; margin-right: 5px;"></i>
               <a class="headerBtn" (click)="navigateToSection('footer')">Contact us</a>
             </div>
           </div>

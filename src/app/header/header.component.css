@@ -5,7 +5,7 @@
 }
 @media (min-width:481px) and (max-width:767px) {
     img{
-        margin-right: 130px;
+        margin-right: 217px;
     }
 }
 @media (min-width:768px) and (max-width:1024px) {
@@ -35,6 +35,10 @@ a {
     font-weight: bold;
     width: auto;
     text-decoration: none;
+}
+
+.navbar-toggler.headerBtn{
+    transition: all 0.2s;
 }
 
 .headerBtn:hover {
