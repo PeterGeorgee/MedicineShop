@@ -7,9 +7,17 @@
             <i class="fa fa-location-arrow" style="margin-right: 5px;"></i>
             <p>Address: {{address}}</p>
         </div>
-        <button type="button" class="btn btn-primary" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
+        <div *ngIf="!disabled; else elseButton" >
+        <button type="button" class="btn btn-primary" (click)="gotoLink()" style="display: flex;">
             <mat-icon style="margin-right: 3px;">language</mat-icon>
             Website
         </button>
+        </div>
+        <ng-template #elseButton>
+        <button type="button"  class="btn btn-primary" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
+            <mat-icon style="margin-right: 3px;">language</mat-icon>
+            Coming Soon
+        </button>
+        </ng-template>
     </div>
 </div>
