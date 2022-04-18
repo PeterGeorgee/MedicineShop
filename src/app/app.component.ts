@@ -17,7 +17,7 @@ export class AppComponent {
     { "name": "Montclair", "address": "9675 Monte Vista Ave Montclair, CA", "website":"NO WEBSITE", "photosrc":"./assets/montclair.jpg","disabled":true },
     { "name": "Palm Desert California", "address": "72960 Fred Waring Dr. Ste 11 Palm Desert, CA 92260", "website":"NO WEBSITE", "photosrc":"./assets/Palm springs 2.jpg","disabled":true },
     { "name": "Vida Drug Store", "address": "437 N Euclid Ave suite B Ontario, CA 91762", "website":"NO WEBSITE", "photosrc":"./assets/vida.jpg","disabled":true },
-    { "name": "The Medicine Shoppe Retail Pharmacy", "address": "5801 W Craig Road Las Vegas, NV 89130 Suit #110", "website":"https://lasvegas.medicineshoppe.com/", "photosrc":"./assets/las vegas retail.jpg","disabled":false },
-    { "name": "The Medicine Shoppe Long Term Care Pharmacy", "address": "5801 W Craig Road Las Vegas, NV 89130 Suit #130", "website":"NO WEBSITE", "photosrc":"./assets/MSImage2.jpg","disabled":true },
+    { "name": "The Medicine Shoppe Retail Pharmacy", "address": "5801 W Craig Road Las Vegas, NV 89130 Suit #110", "website":"https://lasvegas.medicineshoppe.com/", "photosrc":"./assets/las vegas retail.jpg","disabled":false }
   ];
+  lastBranch = { "name": "The Medicine Shoppe Long Term Care Pharmacy", "address": "5801 W Craig Road Las Vegas, NV 89130 Suit #130", "website":"NO WEBSITE", "photosrc":"./assets/MSImage2.jpg","disabled":true };
 }

@@ -16,8 +16,11 @@
 <div class="centered">
     <div class="container">
         <div class="row" id="branches">
-            <div class="col-md-4 mx-auto" *ngFor="let branch of branchesData">
+            <div class="col-lg-4 col-md-6 mx-auto" *ngFor="let branch of branchesData">
                 <app-branch [name]="branch.name" [address]="branch.address" [website]="branch.website" [photosource]="branch.photosrc" [disabled]="branch.disabled"></app-branch>
+            </div>
+            <div class="col-md-6 mx-auto">
+                <app-branch [name]="lastBranch.name" [address]="lastBranch.address" [website]="lastBranch.website" [photosource]="lastBranch.photosrc" [disabled]="lastBranch.disabled"></app-branch>
             </div>
         </div>
     </div>

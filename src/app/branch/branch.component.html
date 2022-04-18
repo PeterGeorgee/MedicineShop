@@ -1,18 +1,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="parentCentered">
     <div class="centered">
-        <img [src]="photosource">
-        <h1>{{name}}</h1>
-        <div style="display: flex;">
-            <i class="fa fa-location-arrow" style="margin-right: 5px;"></i>
-            <p>Address: {{address}}</p>
+        <div class="stuckTogether">
+            <img [src]="photosource">
+            <h1>{{name}}</h1>
+            <div class="address">
+                <i class="fa fa-location-arrow" style="margin-right: 5px;"></i>
+                <p>Address: {{address}}</p>
+            </div>
         </div>
-        <div *ngIf="!disabled; else elseButton" >
-        <button type="button" class="btn btn-primary" (click)="gotoLink()" style="display: flex;">
+        <button type="button" class="btn btn-primary" *ngIf="!disabled; else elseButton" (click)="gotoLink()" style="display: flex;">
             <mat-icon style="margin-right: 3px;">language</mat-icon>
             Website
         </button>
-        </div>
         <ng-template #elseButton>
         <button type="button"  class="btn btn-primary" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
             <mat-icon style="margin-right: 3px;">language</mat-icon>
