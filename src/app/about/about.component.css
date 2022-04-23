@@ -1,13 +1,16 @@
-@media (min-width:700px) {
+@media screen and (min-width:700px) {
     .revDiv{
         margin-left: 50px;   
+    }
+    h1{
+        font-size: 100px;
     }
 }
 
 
 .parentCentered {
     background-color: #F0F3F6;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -19,7 +22,10 @@
     justify-content: center;
     align-items: center;
 }
-
+h1{
+    font-family: Concert One;
+    font-size: 45px;
+}
 .oneLineCentered{
     height: 100%;
     width: 100%;
@@ -28,9 +34,8 @@
     justify-content: center;
 }
 
-h1 {
-    font-size: xx-large;
-    font-weight: bolder;
+p{
+    font-family: 'Quicksand';
 }
 
 img { 
