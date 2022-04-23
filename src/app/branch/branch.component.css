@@ -50,6 +50,9 @@ p {
 }
 
 .btn{
-    border-radius: 15px;
-    background-color: #003E7E;
+    border-radius: 12px;
+    background-color: blue;
+    border-color: transparent;
+    width: 180px;
+    justify-content: center;
 }
