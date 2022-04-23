@@ -13,7 +13,8 @@ export class BranchComponent implements OnInit {
 
 
   @Input() name="";
-  @Input() address="";
+  @Input() addressOne="";
+  @Input() addressTwo="";
   @Input() website="";
   @Input() photosource="";
   @Input() disabled=true;

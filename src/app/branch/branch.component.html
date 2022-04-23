@@ -6,7 +6,7 @@
             <h1>{{name}}</h1>
             <div class="address">
                 <i class="fa fa-location-arrow" style="margin-right: 5px;"></i>
-                <p>Address: {{address}}</p>
+                <p>Address: {{addressOne}} <br> {{addressTwo}}</p>
             </div>
         </div>
         <button type="button" class="btn btn-primary" *ngIf="!disabled; else elseButton" (click)="gotoLink()" style="display: flex;">
