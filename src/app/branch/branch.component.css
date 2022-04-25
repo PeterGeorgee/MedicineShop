@@ -30,6 +30,28 @@ button {
     transform: translate(0, -20px);
 }
 
+.btn1{
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    background-color: #0056d2;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+    padding: 12px 32px;
+    border: 2px solid #0056d2;
+    font-size: 20px;
+}
+.btn1:hover{
+    background-color: #00419E;
+}
+.btn1:disabled{
+    background-color: whitesmoke;
+    color: #0056d2;
+}
+.btn1:disabled:hover{
+    background-color: #F6E4F6;
+}
 img {
     border-radius: 10px;
     max-width: 100%;
