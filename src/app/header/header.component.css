@@ -60,10 +60,16 @@ a {
     margin-bottom: 10px;
 }
 
+.col-lg-4 a{
+    font-size: 22px;
+}
 @media (min-width:100px) and (max-width:991px) {
     .col-lg-4 {
         justify-content: left;
         align-items: left;
+    }
+    .col-lg-4 a{
+        font-size: 20px;
     }
 }
 

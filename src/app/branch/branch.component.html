@@ -2,7 +2,15 @@
 <div class="parentCentered">
     <div class="centered">
         <div class="stuckTogether">
-            <img loading="lazy" [src]="photosource">
+            <div *ngIf="name==='The Medicine Shoppe Long Term Care Pharmacy'; else elsePhotos" style="position: relative; text-align: center;">
+                <img loading="lazy" [src]="photosource" style="filter: brightness(30%);">
+                <h1 class="center" style="color: white; font-size: 50px; width: 100%;">Coming Soon</h1>
+            </div>
+            <ng-template #elsePhotos>
+                <div>
+                    <img loading="lazy" [src]="photosource">
+                </div>
+            </ng-template>
             <h1>{{name}}</h1>
             <div class="address">
                 <i class="fa fa-location-arrow" style="margin-right: 5px;"></i>
@@ -22,7 +30,7 @@
             <mat-icon style="margin-right: 3px;">link_off</mat-icon>
             Coming Soon
         </button> -->
-        <button type="button"  class="btn1" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
+        <button type="button" *ngIf="name!='The Medicine Shoppe Long Term Care Pharmacy'"  class="btn1" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
             <mat-icon style="margin-right: 3px;">link_off</mat-icon>
             Coming Soon
         </button>
