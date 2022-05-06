@@ -29,7 +29,8 @@
     justify-content: center;
 }
 h1{
-    font-family: 'Fredoka One';
+    font-family: 'Dosis';
+    font-size: 1.75rem;
 }
 button {
     /* position: absolute; */
