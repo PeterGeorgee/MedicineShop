@@ -30,7 +30,11 @@
             <mat-icon style="margin-right: 3px;">link_off</mat-icon>
             Coming Soon
         </button> -->
-        <button type="button" *ngIf="name!='The Medicine Shoppe Long Term Care Pharmacy'"  class="btn1" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
+        <button type="button" *ngIf="name=='Vida Drug Store'"  class="btn1" (click)="gotoLink()" [disabled]="disabled" style="display: flex; opacity: 0;">
+            <mat-icon style="margin-right: 3px;">link_off</mat-icon>
+            Coming Soon
+        </button>
+        <button type="button" *ngIf="name!='The Medicine Shoppe Long Term Care Pharmacy' && name!='Vida Drug Store'"  class="btn1" (click)="gotoLink()" [disabled]="disabled" style="display: flex;">
             <mat-icon style="margin-right: 3px;">link_off</mat-icon>
             Coming Soon
         </button>
