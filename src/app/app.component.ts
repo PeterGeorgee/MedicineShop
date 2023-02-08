@@ -17,6 +17,7 @@ export class AppComponent {
     { "name": "Lake Elsinore", "addressOne": "31946 Mission Trail Ste# A", "addressTwo": "Lake Elsinore, CA 92530", "website":"https://www.lakeelsinore.medicineshoppe.com/", "photosrc":"./assets/lake.jpg","disabled":false },
     { "name": "Palm Desert California", "addressOne": "72960 Fred Waring Dr. Ste 11", "addressTwo": "Palm Desert, CA 92260", "website":"NO WEBSITE", "photosrc":"./assets/Palm springs 2.jpg","disabled":true },
     { "name": "The Medicine Shoppe Retail Pharmacy", "addressOne": "5801 W Craig Road, Suite #110", "addressTwo": "Las Vegas, NV 89130", "website":"https://lasvegas.medicineshoppe.com/", "photosrc":"./assets/las vegas retail.jpg","disabled":false },
+    { "name": "Alpha Peoples Drugs", "addressOne": "1638 R Street, NW PH 1", "addressTwo": "Washington DC", "website":"NO WEBSITE", "photosrc":"./assets/AlphaPeoples.jpeg","disabled":true },
     { "name": "Vida Drug Store", "addressOne": "437 N Euclid Ave suite B", "addressTwo": "Ontario, CA 91762", "website":"NO WEBSITE", "photosrc":"./assets/vida.jpg","disabled":true },
   ];
   lastBranch = { "name": "The Medicine Shoppe Long Term Care Pharmacy", "addressOne": "5801 W Craig Road, Suite #130", "addressTwo": "Las Vegas, NV 89130", "website":"NO WEBSITE", "photosrc":"./assets/MSImage2.jpg","disabled":true };
