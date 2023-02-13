@@ -16,6 +16,7 @@
     align-items: center;
     padding: 10px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 .center{
     position: absolute;
@@ -71,6 +72,7 @@ h1{
     font-weight: bold;
     text-align: center;
     margin: 0;
+    white-space: pre-wrap;
 }
 
 p {
@@ -84,4 +86,10 @@ p {
     border-color: transparent;
     width: 180px;
     justify-content: center;
+}
+
+.stuckTogether{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

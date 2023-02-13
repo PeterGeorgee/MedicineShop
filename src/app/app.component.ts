@@ -16,9 +16,9 @@ export class AppComponent {
     { "name": "Montclair", "addressOne": "9675 Monte Vista Ave", "addressTwo": "Montclair, CA", "website":"https://montclair.medicineshoppe.com/", "photosrc":"./assets/montclair.jpg","disabled":false },
     { "name": "Lake Elsinore", "addressOne": "31946 Mission Trail Ste# A", "addressTwo": "Lake Elsinore, CA 92530", "website":"https://lakeelsinore.medicineshoppe.com/", "photosrc":"./assets/lake.jpg","disabled":false },
     { "name": "The Medicine Shoppe Retail Pharmacy", "addressOne": "5801 W Craig Road, Suite #110", "addressTwo": "Las Vegas, NV 89130", "website":"https://lasvegas.medicineshoppe.com/", "photosrc":"./assets/las vegas retail.jpg","disabled":false },
-    { "name": "Palm Desert California", "addressOne": "72960 Fred Waring Dr. Ste 11", "addressTwo": "Palm Desert, CA 92260", "website":"NO WEBSITE", "photosrc":"./assets/Palm springs 2.jpg","disabled":true },
-    { "name": "Alpha Peoples Drugs", "addressOne": "1638 R Street, NW PH 1", "addressTwo": "Washington DC", "website":"https://www.alphapeoplesdrugs.com/", "photosrc":"./assets/AlphaPeoples.jpeg","disabled":false },
-    { "name": "Vida Drug Store", "addressOne": "437 N Euclid Ave suite B", "addressTwo": "Ontario, CA 91762", "website":"NO WEBSITE", "photosrc":"./assets/vida.jpg","disabled":true },
+    { "name": "Palm Desert \n California", "addressOne": "72960 Fred Waring Dr. Ste 11", "addressTwo": "Palm Desert, CA 92260", "website":"NO WEBSITE", "photosrc":"./assets/Palm springs 2.jpg","disabled":true },
+    { "name": "Alpha Peoples \n Drugs", "addressOne": "1638 R Street, NW PH 1", "addressTwo": "Washington DC", "website":"https://www.alphapeoplesdrugs.com/", "photosrc":"./assets/AlphaPeoples.jpeg","disabled":false },
+    { "name": "Vida Drug \n Store", "addressOne": "437 N Euclid Ave suite B", "addressTwo": "Ontario, CA 91762", "website":"NO WEBSITE", "photosrc":"./assets/vida.jpg","disabled":true },
   ];
   lastBranch = { "name": "The Medicine Shoppe Long Term Care Pharmacy", "addressOne": "5801 W Craig Road, Suite #130", "addressTwo": "Las Vegas, NV 89130", "website":"NO WEBSITE", "photosrc":"./assets/MSImage2.jpg","disabled":true };
 }
